@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>2048</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="_2048.css" type="text/css"/>
+  <script src="_2048.js"></script>
+  <link rel="icon" href="icon_1.png"/>
+ </head>
+
+ <body>
+   <p>Score:<span id="score">0</span></p>
+   <div id="gridPanel">
+     <!--背景格-->
+	<!--
+	 <div id="g00" class="grid"></div>
+	 <div id="g01" class="grid"></div>
+	 <div id="g02" class="grid"></div>
+	 <div id="g03" class="grid"></div>
+
+	 <div id="g10" class="grid"></div>
+	 <div id="g11" class="grid"></div>
+	 <div id="g12" class="grid"></div>
+	 <div id="g13" class="grid"></div>
+
+	 <div id="g20" class="grid"></div>
+	 <div id="g21" class="grid"></div>
+	 <div id="g22" class="grid"></div>
+	 <div id="g23" class="grid"></div>
+
+	 <div id="g30" class="grid"></div>
+	 <div id="g31" class="grid"></div>
+	 <div id="g32" class="grid"></div>
+	 <div id="g33" class="grid"></div>
+	-->
+
+	 <!--前景格-->
+	<!--
+	 <div id="c00" class="cell"></div>
+	 <div id="c01" class="cell"></div>
+	 <div id="c02" class="cell"></div>
+	 <div id="c03" class="cell"></div>
+
+	 <div id="c10" class="cell"></div>
+	 <div id="c11" class="cell"></div>
+	 <div id="c12" class="cell"></div>
+	 <div id="c13" class="cell"></div>
+
+	 <div id="c20" class="cell"></div>
+	 <div id="c21" class="cell"></div>
+	 <div id="c22" class="cell"></div>
+	 <div id="c23" class="cell"></div>
+
+	 <div id="c30" class="cell"></div>
+	 <div id="c31" class="cell"></div>
+	 <div id="c32" class="cell"></div>
+	 <div id="c33" class="cell"></div>
+	-->
+   </div>
+   <!--游戏结束-->
+   <div id="gameOver">
+     <div><!--灰色半透明背景--></div>
+	 <!--前景小窗-->
+	 <p>
+	   Game Over!<br/>
+	   Score:<span id="finalScore"></span><br/>
+	   <a class="button" id="restart" onclick="game.start()">Try again!</a>
+	 </p>
+   </div>
+ </body>
+</html>
